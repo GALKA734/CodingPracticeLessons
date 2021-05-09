@@ -48,7 +48,7 @@ public class AscendingSequenceTest {
         AscendingSequence ascendingSequence = new AscendingSequence();
         int[] actualResult = ascendingSequence.buildAscendingArray(startNumber, endNumber);
 
+
         Assert.assertArrayEquals(expectedResult, actualResult);
     }
-    
 }
